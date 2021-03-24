@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 button {
-  background-color: goldenrod;
+  background-color: rgb(32, 137, 218);
   border: none;
   color: white;
   padding: 15px 20px;
@@ -65,7 +65,7 @@ button {
   backface-visibility: hidden;
 }
 .question {
-  background-color: black;
+  background-color: white;
   color: goldenrod;
   display: grid;
   grid-template-columns: 1fr;

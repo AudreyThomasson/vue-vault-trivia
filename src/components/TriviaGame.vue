@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Friends Trivia</h1>
+    <div class='friends'>
+        <img src='@/assets/friends-logo-cover-958x575.png' :width='700' >
+    </div>
+    <h1 class="title">T R I V I A</h1>
     <button @click="hideAll" class="flat-button">HIDE ALL</button>
     <div class="difficulty-options">
       <difficulty-options
@@ -51,6 +54,14 @@ export default {
 </script>
 
 <style scoped>
+.friends {
+    margin-top: 60px;
+}
+.title {
+    color: white;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
 .questions {
   display: flex;
   flex-direction: row;
@@ -63,6 +74,6 @@ export default {
   cursor: pointer;
   margin-bottom: 10px;
   font-size: 20px;
-  color: goldenrod;
+  color: rgb(32, 137, 218);
 }
 </style>
